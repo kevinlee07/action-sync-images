@@ -34,7 +34,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://selectdb/doris.fe-ubuntu:3.0.3 docker://registry.cn-hangzhou.aliyuncs.com/test232328/doris.fe-ubuntu:3.0.3
-        skopeo copy docker://selectdb/doris.be-ubuntu:3.0.3 docker://registry.cn-hangzhou.aliyuncs.com/test232328/doris.be-ubuntu:3.0.3
-        
+        skopeo copy docker://docker:24.0.7-dind-alpine3.18 docker://crpi-xporustjkfl5p4r9.cn-hangzhou.personal.cr.aliyuncs.com/kspace/cangku/docker:24.0.7-dind-alpine3.18
+
 
