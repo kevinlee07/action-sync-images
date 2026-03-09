@@ -34,6 +34,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://justlikemaki/aiclient-2-api:latest docker://crpi-xporustjkfl5p4r9.cn-hangzhou.personal.cr.aliyuncs.com/kspace/aiclient-2-api:latest
+        skopeo copy docker://justlikemaki/openclaw-docker-cn-im:latest docker://crpi-xporustjkfl5p4r9.cn-hangzhou.personal.cr.aliyuncs.com/kspace/openclaw-docker-cn-im:latest
 
 
