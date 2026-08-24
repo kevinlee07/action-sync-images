@@ -34,4 +34,4 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
         #!/usr/bin/env bash
-        skopeo copy docker://calciumion/new-api:v1.0.0-alpha.1 docker://crpi-xporustjkfl5p4r9.cn-hangzhou.personal.cr.aliyuncs.com/kspace/new-api:v1.0.0-alpha.1
+        skopeo copy docker://apache/seatunnel:2.3.13 docker://crpi-xporustjkfl5p4r9.cn-hangzhou.personal.cr.aliyuncs.com/kspace/seatunnel:2.3.13
